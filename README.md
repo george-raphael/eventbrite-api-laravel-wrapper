@@ -38,7 +38,7 @@ Configuration can be done via your `.env` file.
 EVENTBRITE_BASE_URL=https://www.eventbriteapi.com/v3/
 EVENTBRITE_TOKEN=xxxxxxx
 ````
->You may also publish the config file to `config/eventbrite.pzhp` for editing:
+>You may also publish the config file to `config/eventbrite.php` for editing:
 `php artisan vendor:publish --provider="Marat555\Eventbrite\EventbriteServiceProvider"`
  
  
